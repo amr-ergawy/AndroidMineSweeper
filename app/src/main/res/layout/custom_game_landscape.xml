@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Field rows: "
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/FieldRowsText"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1"
+                android:maxLength="2"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <SeekBar
+                android:id="@+id/FieldRowsSeekBar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:progress="8"
+                android:max="15"
+                android:thumbOffset="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Field cols:  "
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/FieldColsText"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1"
+                android:maxLength="2"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <SeekBar
+                android:id="@+id/FieldColsSeekBar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:max="15"
+                android:progress="8"
+                android:thumbOffset="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mines:     " />
+
+            <TextView
+                android:id="@+id/MinesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2"
+                android:maxLength="3"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="0.5" />
+
+            <SeekBar
+                android:id="@+id/MinesSeekBar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:max="64"
+                android:progress="2"
+                android:thumbOffset="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Confirm  "
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/ChangeGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change game"/>
+    </LinearLayout>
+
+</LinearLayout>

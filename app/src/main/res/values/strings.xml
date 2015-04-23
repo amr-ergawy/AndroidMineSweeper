@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Touch Mine Sweeper</string>
+    <string name="game_choice_beginner">5 mines, 5x5 field</string>
+    <string name="game_choice_intermediate">10 mines, 7x7 field</string>
+    <string name="game_choice_expert">20 mines, 10x10 field</string>
+    <string name="game_choice_custom">Customize your game</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/UserWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Mine Sweeper for Android touch devices"/>
+    <ImageView
+        android:id="@+id/Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/UserWelcome"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon"/>
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Play   "
+        android:layout_below="@+id/UserWelcome"
+        android:layout_toLeftOf="@+id/Help"
+        android:layout_toStartOf="@+id/Help" />
+    <Button
+        android:id="@+id/Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Help   "
+        android:layout_below="@+id/UserWelcome"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/Credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Credits  "
+        android:layout_below="@+id/UserWelcome"
+        android:layout_toRightOf="@+id/Help"
+        android:layout_toEndOf="@+id/Help" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report issues to: amr.ergawy@gmail.com"
+        android:layout_below="@+id/Play"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

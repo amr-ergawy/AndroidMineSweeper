@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/GameChoiceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Game choice"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <RatingBar
+        android:id="@+id/GameChoiceRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="4"
+        android:rating="1"
+        android:stepSize="1"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/StartGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start game"
+            android:gravity="center"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/BackToMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to menu"
+            android:gravity="center"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</LinearLayout>
