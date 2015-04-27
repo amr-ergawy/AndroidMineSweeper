@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 public class GameLevels {
 	public static final String GAME_LEVEL = "gameLevel";

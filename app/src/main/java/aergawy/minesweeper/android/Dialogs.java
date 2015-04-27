@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 import android.app.Activity;
 import android.app.AlertDialog;

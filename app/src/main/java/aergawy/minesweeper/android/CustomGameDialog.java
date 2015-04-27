@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 import android.app.Dialog;
 import android.content.res.Configuration;

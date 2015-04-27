@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidMineSweeper-AndroidStudio.iml" filepath="$PROJECT_DIR$/AndroidMineSweeper-AndroidStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidMineSweeper-Reviewed.iml" filepath="$PROJECT_DIR$/AndroidMineSweeper-Reviewed.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/touch_minesweeper.iml" filepath="$PROJECT_DIR$/app/touch_minesweeper.iml" />
     </modules>
   </component>
 </project>

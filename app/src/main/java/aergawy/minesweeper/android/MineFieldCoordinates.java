@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 public class MineFieldCoordinates {
 	

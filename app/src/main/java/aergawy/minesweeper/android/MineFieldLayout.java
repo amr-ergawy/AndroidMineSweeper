@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 import java.util.Iterator;
 

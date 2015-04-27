@@ -1,4 +1,4 @@
-package minesweeper.trying.android;
+package aergawy.minesweeper.android;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -7,8 +7,8 @@ public class StartGameIntent extends Intent {
 	public StartGameIntent(int level) {
 		// Mine field activity.
 		ComponentName mineFieldActivity = 
-			new ComponentName("minesweeper.trying.android", 
-							  "minesweeper.trying.android.MineFieldActivity");
+			new ComponentName("aergawy.minesweeper.android",
+							  "aergawy.minesweeper.android.MineFieldActivity");
 		setComponent(mineFieldActivity);
 		
 		// Pass game level.
